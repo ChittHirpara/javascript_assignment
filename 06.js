@@ -1,5 +1,5 @@
-let temp = 28;
-let message;
+var temp = 28;
+var message;
 
 if (temp < 0) {
   message = "Freezing Cold";
@@ -14,4 +14,5 @@ if (temp < 0) {
 }
 
 console.log("Temperature:", temp + "°C");
+
 console.log("Category:", message);
