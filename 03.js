@@ -1,5 +1,5 @@
-let income = 750000;
-let tax;
+var income = 750000;
+var tax;
 
 if (income <= 250000) {
   tax = 0;
@@ -12,4 +12,5 @@ if (income <= 250000) {
 }
 
 console.log("Annual Income: ₹" + income);
+
 console.log("Tax Payable: ₹" + tax);
