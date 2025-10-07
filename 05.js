@@ -1,5 +1,5 @@
-let a = 45, b = 78, c = 32;
-let largest;
+var a = 45, b = 78, c = 32;
+var largest;
 
 if (a >= b && a >= c) {
   largest = a;
@@ -8,5 +8,6 @@ if (a >= b && a >= c) {
 } else {
   largest = c;
 }
+
 
 console.log("Largest number is:", largest);
