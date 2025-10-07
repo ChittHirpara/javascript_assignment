@@ -1,5 +1,5 @@
-let units = 350;
-let bill;
+var units = 350;
+var bill;
 
 if (units <= 100) {
   bill = units * 5;
@@ -10,4 +10,5 @@ if (units <= 100) {
 }
 
 console.log("Units Consumed:", units);
+
 console.log("Total Bill: ₹" + bill);
