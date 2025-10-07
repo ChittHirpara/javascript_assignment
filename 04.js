@@ -1,4 +1,4 @@
-let age = 17;
+var age = 17;
 
 if (age < 0 || age > 120) {
   console.log("Invalid age");
@@ -6,4 +6,5 @@ if (age < 0 || age > 120) {
   console.log("Not eligible to vote");
 } else {
   console.log("Eligible to vote");
+
 }
