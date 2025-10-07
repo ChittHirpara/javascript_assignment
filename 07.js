@@ -1,6 +1,6 @@
-let marks = 86;
-let income = 280000;
-let eligibility;
+var marks = 86;
+var income = 280000;
+var eligibility;
 
 if (marks >= 85 && income < 300000) {
   eligibility = "Full Scholarship";
@@ -12,4 +12,5 @@ if (marks >= 85 && income < 300000) {
 
 console.log("Marks:", marks + "%");
 console.log("Family Income: ₹" + income);
+
 console.log("Scholarship Status:", eligibility);
