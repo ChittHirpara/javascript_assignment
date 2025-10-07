@@ -1,7 +1,7 @@
-let sub1 = 85, sub2 = 90, sub3 = 78, sub4 = 88, sub5 = 92;
-let total = sub1 + sub2 + sub3 + sub4 + sub5;
-let percentage = (total / 500) * 100;
-let grade;
+var sub1 = 85, sub2 = 90, sub3 = 78, sub4 = 88, sub5 = 92;
+var total = sub1 + sub2 + sub3 + sub4 + sub5;
+var percentage = (total / 500) * 100;
+var grade;
 
 if (percentage >= 90) {
   grade = "Grade A";
@@ -17,4 +17,5 @@ if (percentage >= 90) {
 
 console.log("Total Marks:", total);
 console.log("Percentage:", percentage.toFixed(2) + "%");
+
 console.log("Grade:", grade);
